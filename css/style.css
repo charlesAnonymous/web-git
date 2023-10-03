@@ -212,3 +212,25 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+@media screen and (max-width:1200px){
+
+}
+@media screen and (max-width:992px){
+    .navbar-brand{
+        order:2;
+    }
+    .navbar-toggler.collapsed {
+        order:1;
+    }
+    .dropdown {
+        order:3;
+    }
+    .nav-box li {
+        padding:0;
+        margin:0;
+        border:none;
+    }
+}
+@media screen and (max-width:768px){
+    
+}
