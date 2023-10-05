@@ -10,11 +10,11 @@
 }
 @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?4fm8jm');
-    src:  url('../fonts/icomoon.eot?4fm8jm#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?4fm8jm') format('truetype'),
-      url('../fonts/icomoon.woff?4fm8jm') format('woff'),
-      url('../fonts/icomoon.svg?4fm8jm#icomoon') format('svg');
+    src:  url('../fonts/icomoon.eot?ma7bm1');
+    src:  url('../fonts/icomoon.eot?ma7bm1#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?ma7bm1') format('truetype'),
+      url('../fonts/icomoon.woff?ma7bm1') format('woff'),
+      url('../fonts/icomoon.svg?ma7bm1#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -35,9 +35,19 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
-  .icon-flesh:before {
-    content: "\e900";
-  }  
+  .icon-in:before {
+    content: "\e908";
+  }
+  .icon-facebook:before {
+    content: "\face";
+  }
+  .icon-twiter:before {
+    content: "\e907";
+  }
+  .icon-insta:before {
+    content: "\e906";
+  }
+  
 li {
     list-style: none;
 }
@@ -212,10 +222,130 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+.h1-box-asli {
+    margin-top:32px;
+}
+.h1-box-asli p {
+    padding-top:12px;
+    text-align: justify;
+}
+.swiper-test {
+    overflow: hidden;
+}
+.swiper-test {
+    position: relative;
+}
+.slide-box3 a {
+    text-align: center;
+    margin:0;
+    padding:12px 32px;
+    background-color:#4927CD ;
+    color:white;
+    border:1px solid #4927CD;
+    border-radius: 4px;
+}
+.slide-box3 {
+    padding:55px 275px;
+    background-color: #F8F8F8;
+    border-radius:12px ;
+    margin-top:31px;
+}
+.section-of-contact-box {
+    margin-top:64px!important;
+}
+.call-box {
+    display:flex;
+    justify-content: space-between;
+    background-color:#333645;
+    margin-top:64px;
+    padding:50px;
+    border:1px solid #333645;
+    border-radius:24px;
+}
+.way {
+    display:flex;
+    align-items:center;
+}
+.ertebat {
+    margin-right:57px;
+  }
+  .ertebat p {
+    color:white;
+  }
+  .h3-title {
+    color:white; 
+  }
+  .email p{
+    color:white;
+  }
+  .email a {
+    color:white!important;
+  }
+  .number p , .number a {
+    color:white!important;
+  }
+  .way2 {
+    display:flex;
+    justify-content: space-evenly;
+  }
+  .email {
+    margin-left:82px;
+  }
+  .swiper-test3 {
+    padding-top:30px!important;
+  }
+  .swiper-test4 {
+    padding-top:30px!important;
+  }
+  .ul-box2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ul-text li  {
+    padding:16px 0;
+  }
+  .footer-div p {
+    text-align: justify;
+    width:448px;
+  }
+  .li-ul-box a{
+    color:black!important;
+  }
+  .ul-text li a {
+    color:#717175!important;
+  }
+  .footer-div2 {
+    margin-top:64px;
+  }
+  .line {
+    border-bottom: 1px solid #e7e7e8;
+  }
+  .icon {
+    display: flex;
+  }
+  .end {
+    display: flex;
+    justify-content: space-between;
+    border-top:1px solid #e7e7e8;
+    padding-top:38.7px;
+  }
+  .icon span {
+    font-size:25px;
+    padding:0 5px;
+  }
+  .paragraf-box p {
+    font-size:var(--text-font);
+    color:#717175;
+  }
 @media screen and (max-width:1200px){
-
+    .slide-box3 {
+        padding:55px 157px;
+    }
 }
 @media screen and (max-width:992px){
+    .slide-box3 {
+        padding:55px 77px;
+    }
     .navbar-brand{
         order:2;
     }
@@ -230,7 +360,47 @@ a {
         margin:0;
         border:none;
     }
+    .call-box {
+        display:inline-block;
+      }
+      .section-of-contact-box {
+        margin-top:112px;
+      }
+      .footer-div p {
+        width:100%;
+      }
 }
 @media screen and (max-width:768px){
-    
+    .slide-box3{
+        padding:55px 40px;
+    }
+    .slide-box3 a {
+        padding:12px 9px;
+    }
+}
+@media screen and (max-width:576px){
+    .ul-text {
+        padding:0;
+    }
+    .email {
+        margin-left:17px;
+    }
+    .ertebat {
+        margin-right:27px;
+    }
+    .slide-box3 {
+        padding:24px 35px;
+    }
+    .slide-box3 a {
+        padding:5px 0;
+    }
+    .paragraf-box {
+        text-align: center;
+    }
+    .icon {
+        justify-content: center;
+    }
+    .end {
+        display:inline;
+    }
 }
